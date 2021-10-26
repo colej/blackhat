@@ -19,7 +19,7 @@ def get_central_wavelength(passband, method):
     method: str
         The name of the  method used to calculate the central wavelength
     """
-    with open('/lhome/colej/python/blackhat/passbands.yaml', 'r') as f:
+    with open('/lhome/colej/python/blackhat/data/passbands.yaml', 'r') as f:
         cfg = yaml.load(f, Loader=yaml.Loader)
     f.close()
 
@@ -37,7 +37,7 @@ def get_central_wavelength(passband, method):
     #         )
 
 def get_passband_plot_color(passband):
-    with open('/lhome/colej/python/blackhat/passbands.yaml', 'r') as f:
+    with open('/lhome/colej/python/blackhat/data/passbands.yaml', 'r') as f:
         cfg = yaml.load(f, Loader=yaml.Loader)
     f.close()
 
@@ -45,7 +45,7 @@ def get_passband_plot_color(passband):
         return cfg[passband]['color']
 
 def get_passband_plot_marker(passband):
-    with open('/lhome/colej/python/blackhat/passbands.yaml', 'r') as f:
+    with open('/lhome/colej/python/blackhat/data/passbands.yaml', 'r') as f:
         cfg = yaml.load(f, Loader=yaml.Loader)
     f.close()
 
