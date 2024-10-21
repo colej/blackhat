@@ -25,8 +25,9 @@ I'll eventaully provide a proper requirements wheel
 ## Project Structure
 
  - src/
-  - __init__.py
+   - __init__.py
 │   ├── data/
+
 │   │   ├── __init__.py
 │   │   ├── data_preparation.py
 │   │   ├── datasets.py
