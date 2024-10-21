@@ -25,27 +25,27 @@ I'll eventaully provide a proper requirements wheel
 ## Project Structure
 
 ├── src/\
-│   ├── __init__.py\
+│   ├── \_\_init\_\_.py\
 │   ├── data/\
-│   │   ├── __init__.py\
+│   │   ├── \_\_init\_\_.py\
 │   │   ├── data_preparation.py\
 │   │   ├── datasets.py\
 │   │   └── transforms.py\
 │   ├── models/\
-│   │   ├── __init__.py\
+│   │   ├── \_\_init\_\_.py\
 │   │   ├── cnn_model.py\
 │   │   ├── whole_image_model.py\
 │   │   └── layers.py\
 │   ├── training/\
-│   │   ├── __init__.py\
+│   │   ├── \_\_init\_\_.py\
 │   │   ├── train_cutout_classifier.py\
 │   │   ├── train_whole_image_classifier.py\
 │   │   └── utils.py\
 │   ├── inference/\
-│   │   ├── __init__.py\
+│   │   ├── \_\_init\_\_.py\
 │   │   └── classify_image.py\
 │   └── config/\
-│       ├── __init__.py\
+│       ├── \_\_init\_\_.py\
 │       └── config.yaml\
 ├── data/\
 │   ├── fixed_positions.csv\
@@ -55,7 +55,7 @@ I'll eventaully provide a proper requirements wheel
 │   ├── exploratory_data_analysis.ipynb\
 │   └── model_evaluation.ipynb\
 ├── tests/\
-│   ├── __init__.py\
+│   ├── \_\_init\_\_.py\
 │   ├── test_data_preparation.py\
 │   ├── test_models.py\
 │   └── test_training.py\
