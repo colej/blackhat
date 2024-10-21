@@ -27,47 +27,47 @@ I'll eventaully provide a proper requirements wheel
 ├── src/\
 │   ├── __init__.py\
 │   ├── data/\
-│   │   ├── __init__.py
-│   │   ├── data_preparation.py
-│   │   ├── datasets.py
-│   │   └── transforms.py
-│   ├── models/
-│   │   ├── __init__.py
-│   │   ├── cnn_model.py
-│   │   ├── whole_image_model.py
-│   │   └── layers.py
-│   ├── training/
-│   │   ├── __init__.py
-│   │   ├── train_cutout_classifier.py
-│   │   ├── train_whole_image_classifier.py
-│   │   └── utils.py
-│   ├── inference/
-│   │   ├── __init__.py
-│   │   └── classify_image.py
-│   └── config/
-│       ├── __init__.py
-│       └── config.yaml
-├── data/
-│   ├── fixed_positions.csv
-│   └── sample_images/
-│       └── (place small sample images here)
-├── notebooks/
-│   ├── exploratory_data_analysis.ipynb
-│   └── model_evaluation.ipynb
-├── tests/
-│   ├── __init__.py
-│   ├── test_data_preparation.py
-│   ├── test_models.py
-│   └── test_training.py
-├── scripts/
-│   ├── download_data.sh
-│   └── preprocess_data.py
-├── mlruns/
-│   └── (MLflow tracking directory)
-└── docs/
-    ├── installation.md
-    ├── usage.md
-    └── api_reference.md
+│   │   ├── __init__.py\
+│   │   ├── data_preparation.py\
+│   │   ├── datasets.py\
+│   │   └── transforms.py\
+│   ├── models/\
+│   │   ├── __init__.py\
+│   │   ├── cnn_model.py\
+│   │   ├── whole_image_model.py\
+│   │   └── layers.py\
+│   ├── training/\
+│   │   ├── __init__.py\
+│   │   ├── train_cutout_classifier.py\
+│   │   ├── train_whole_image_classifier.py\
+│   │   └── utils.py\
+│   ├── inference/\
+│   │   ├── __init__.py\
+│   │   └── classify_image.py\
+│   └── config/\
+│       ├── __init__.py\
+│       └── config.yaml\
+├── data/\
+│   ├── fixed_positions.csv\
+│   └── sample_images/\
+│       └── img00001.fits\
+├── notebooks/\
+│   ├── exploratory_data_analysis.ipynb\
+│   └── model_evaluation.ipynb\
+├── tests/\
+│   ├── __init__.py\
+│   ├── test_data_preparation.py\
+│   ├── test_models.py\
+│   └── test_training.py\
+├── scripts/\
+│   ├── download_data.sh\
+│   └── preprocess_data.py\
+├── mlruns/\
+│   └── (MLflow tracking directory)\
+└── docs/\
+    ├── installation.md\
+    ├── usage.md\
+    └── api_reference.md\
 
 
 ## Contributing
